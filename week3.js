@@ -21,6 +21,12 @@ function showResults(name, colour, animal){
 	document.getElementById('name-result').innerHTML = name;
 
 	document.getElementById('results').style.display = "block";
+
+	document.getElementById('dog').style.display = "none";
+	document.getElementById('cat').style.display = "none";
+	document.getElementById('other').style.display = "none";
+	
 	document.getElementById(animal).style.display = "block";
+
 	document.getElementById('results').style.background = colour;
 }
