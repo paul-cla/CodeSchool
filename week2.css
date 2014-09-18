@@ -7,7 +7,8 @@ h1 {
 }
 p a {
 	border: red 2px dashed;
-}a {
+}
+a {
 
 	border: green 2px solid;
 }
@@ -15,9 +16,13 @@ p a {
 
 }
 
+.red{
+	colour: red;
+}
+
 .yellow{
 	font-family: arial;
-	color: black;
+	color: yellow;
 	border: none;
 	padding-left:100px;
 	text-decoration: none;
