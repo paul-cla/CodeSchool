@@ -18,7 +18,7 @@ submitButton.onclick = function(){
 }
 
 function showResults(name, colour, animal){
-	document.getElementById('name-result').innerText = name;
+	document.getElementById('name-result').innerHTML = name;
 
 	document.getElementById('results').style.display = "block";
 	document.getElementById(animal).style.display = "block";
