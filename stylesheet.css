@@ -1,0 +1,21 @@
+p {
+	color: red;
+}
+
+h1 {
+	color: #411085;
+}
+p a {
+	border: red 2px dashed;
+}
+a {
+
+	border: green 2px solid;
+}
+strong {
+	font-weight: normal;
+}
+em{
+	font-weight: bold;
+	font-style: normal;
+}
